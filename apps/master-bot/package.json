@@ -21,7 +21,7 @@
 	},
 	"homepage": "https://github.com/FactorioAntigrief/FactorioAntigrief#readme",
 	"dependencies": {
-		"@discordjs/builders": "^0.10.0",
+		"@discordjs/builders": "^1.1.0",
 		"@discordjs/rest": "^0.1.0-canary.0",
 		"@prisma/client": "^3.11.1",
 		"@types/node": "^16.6.1",
