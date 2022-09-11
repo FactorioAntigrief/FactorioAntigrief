@@ -10,7 +10,7 @@
 		"dev": "nodemon"
 	},
 	"dependencies": {
-		"@sentry/integrations": "^6.4.1",
+		"@sentry/integrations": "^7.12.1",
 		"@sentry/node": "^6.4.1",
 		"@sentry/tracing": "^6.4.1",
 		"@supercharge/strings": "^1.18.0",
@@ -22,7 +22,7 @@
 		"dotenv": "^16.0.0",
 		"envalid": "^7.2.1",
 		"fagc-api-wrapper": "^1.28.2",
-		"fs-extra": "^10.0.0",
+		"fs-extra": "^10.1.0",
 		"moment": "^2.29.1",
 		"node-fetch": "^3.2.4",
 		"path": "^0.12.7",
