@@ -38,7 +38,7 @@
 		"sqlite3": "^5.0.2",
 		"typeorm": "^0.2.45",
 		"utility-types": "^3.10.0",
-		"zod": "^3.11.6"
+		"zod": "^3.19.0"
 	},
 	"devDependencies": {
 		"@types/better-sqlite3": "^7.4.1"
