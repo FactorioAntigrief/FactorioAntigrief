@@ -3,6 +3,7 @@
 		"discordChannelId": "",
 		"servername": "AwF-Regular",
 		"discordGuildId": "548410604679856151",
+		"rconHost": "127.0.0.1",
 		"rconPort": 27015,
 		"rconPassword": "Strong RCON password here."
 	}

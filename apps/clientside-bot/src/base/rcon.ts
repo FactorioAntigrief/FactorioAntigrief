@@ -40,7 +40,7 @@ export default class RconInterface {
 		const server = this.servers[serverIndex]
 		if (!server) return
 		const rcon = new Rcon({
-			host: "127.0.0.1",
+			host: server.rconHost || "127.0.0.1",
 			port: server.rconPort,
 			password: server.rconPassword,
 		})
@@ -191,9 +191,11 @@ export default class RconInterface {
 				// dayjs is used to get the relative time since the start of the reconnection attempts
 				if (attempts.includes(connectionAttempts)) {
 					this.client.sendToErrorChannel(
-						`Server <#${
-							server.discordChannelId
-						}> has been unable to connect to RCON since ${dayjs(
+						`Server <#${server.discordChannelId}> (${
+							server.rconHost
+						}:${
+							server.rconPort
+						})has been unable to connect to RCON since ${dayjs(
 							startedAt
 						).fromNow()}`
 					)

@@ -35,7 +35,7 @@
 		"faker": "5",
 		"rcon-client": "^4.2.3",
 		"reflect-metadata": "^0.1.13",
-		"sqlite3": "^5.0.2",
+		"sqlite3": "^5.1.6",
 		"tail": "^2.2.4",
 		"typeorm": "^0.2.45",
 		"utility-types": "^3.10.0",
