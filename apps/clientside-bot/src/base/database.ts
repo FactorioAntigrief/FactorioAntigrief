@@ -21,6 +21,7 @@ export const FactorioServer = z.object({
 		.describe("Name of Factorio server that it can be identified with"),
 	discordGuildId: z.string(),
 
+	rconHost: z.string().default("127.0.0.1"),
 	rconPort: z.number().max(65535).min(0),
 	rconPassword: z.string().default(ENV.RCONPASSWORD),
 

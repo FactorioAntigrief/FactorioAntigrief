@@ -1,0 +1,5 @@
+npm-debug.log
+.git
+apps/backend
+apps/community-bot
+apps/master-bot

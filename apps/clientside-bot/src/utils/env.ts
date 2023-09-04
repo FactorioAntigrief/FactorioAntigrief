@@ -28,12 +28,12 @@ const ENV = cleanEnv(
 		BANCOMMAND: str({
 			desc: "Command to ban with",
 			default:
-				'game.ban_player("{PLAYERNAME}", "You have been banned for FDGL report {REPORTID} created on {REPORTEDTIME}")',
+				'game.ban_player("{PLAYERNAME}", "You have been banned for FDGL report {REPORTID}")',
 		}),
 		CUSTOMBANCOMMAND: str({
 			desc: "Custom command to send over RCON",
 			default:
-				'game.ban_player("{PLAYERNAME}", "You have been banned for FDGL report {REPORTID} created on {REPORTEDTIME}")',
+				'game.ban_player("{PLAYERNAME}", "You have been banned for FDGL report {REPORTID}")',
 		}),
 		UNBANCOMMAND: str({
 			desc: "Command to unban with",
